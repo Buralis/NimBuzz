@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nim Buzz</title>
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-logo" src="/img/logo-netinfosmedias-seul-tampon.png" alt="logo netinfosmedias">
+        <h1 class="header-title">Le test - NIM buzz</h1>
+    </header>
+    <section class="main-section">
+        <h2>Choisissez une suite de nombre entre 1 et 1000.</h2>
+        <form class="form" action="/NimSubmit" method="POST">
+            <div>
+                <input type="number" id="startNumber" name="startNumber" required>
+                <label for="startNumber">Nombre de début</label>
+            </div>
+            <div>
+                <input type="number" id="endNumber" name="endNumber" required>
+                <label for="endNumber">Nombre de fin</label>
+            </div>
+            <button type="submit">Tester la série</button>
+        </form>
+    </section>
+</body>
